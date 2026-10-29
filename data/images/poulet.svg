@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title">
+<title id="title">Poulet entier</title>
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fff7ed"/></linearGradient></defs>
+<rect width="320" height="320" rx="28" fill="url(#bg)"/>
+<circle cx="260" cy="55" r="28" fill="#ffedd5"/><ellipse cx="160" cy="218" rx="72" ry="11" fill="#0f172a" opacity=".10"/>
+<path d="M102 116q0-14 15-14h86q15 0 15 14l-12 71q-2 12-15 12h-62q-13 0-15-12z" fill="#cbd5e1" stroke="#334155" stroke-width="5"/><ellipse cx="160" cy="142" rx="48" ry="34" fill="#fca5a5" stroke="#334155" stroke-width="4"/><path d="M127 153q33 21 66-2" fill="none" stroke="#f8fafc" stroke-width="5" opacity=".8"/>
+<text x="160" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937">Poulet entier</text>
+<text x="160" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#f97316">ILLUSTRATION PRODUIT</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title">
+<title id="title">Eau minérale</title>
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fff7ed"/></linearGradient></defs>
+<rect width="320" height="320" rx="28" fill="url(#bg)"/>
+<circle cx="260" cy="55" r="28" fill="#ffedd5"/><ellipse cx="160" cy="218" rx="72" ry="11" fill="#0f172a" opacity=".10"/>
+<path d="M145 55h30v28l16 18v91q0 12-12 12h-38q-12 0-12-12v-91l16-18z" fill="#38bdf8" stroke="#334155" stroke-width="5"/><rect x="142" y="42" width="36" height="18" rx="4" fill="#334155"/><rect x="137" y="125" width="46" height="40" rx="7" fill="#f8fafc" opacity=".92"/>
+<text x="160" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937">Eau minérale</text>
+<text x="160" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#f97316">ILLUSTRATION PRODUIT</text>
+</svg>

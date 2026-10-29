@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="min-h-screen flex flex-col">
+    <header>
+        <nav class="bg-white shadow-sm">
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
+    <a href="#" class="text-xl font-bold text-orange-600">Auchan</a>
+    <button type="button" class="rounded-md p-2 text-gray-700 md:hidden" aria-label="Ouvrir le menu">
+      ☰
+    </button>
+    <ul class="hidden items-center gap-6 md:flex">
+      <li><a href="#" class="text-gray-700 hover:text-orange-600">Accueil</a></li>
+      <li><a href="#catalogue" class="text-gray-700 hover:text-orange-600">Catalogue</a></li>
+      <li><a href="#panier" class="text-gray-700 hover:text-orange-600">Panier</a></li>
+    </ul>
+  </div>
+</nav>
+    </header>
+    <main id="catalogue" class="flex-1">
+  <section id="catalogue">
+    <h1>Catalogue</h1>
+  </section>
+
+  <section id="panier">
+    <h2>Mon panier</h2>
+  </section>
+    </main>
+    <footer class="bg-black px-4 py-6 text-center text-sm text-white">
+            
+        <p>© 2026 Auchan - tous droits réservés.</p>
+        <div class="mt-3 flex justify-center gap-5">
+            <a href="index.html" class="hover:text-orange-400">Acceil</a>
+            <a href="" class="hover:text-orange-400">Cataloge</a>
+           <a href="" class="hover:text-orange-400">Panier</a>
+
+        </div>
+
+    </footer>
+</body>
+<script src="js/api.js"></script>
+</html>

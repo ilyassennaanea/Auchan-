@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Lait UHT",
+    "category": "Produits laitiers",
+    "price": 12.5,
+    "stock": 40,
+    "image": "data/images/lait.svg"
+  },
+  {
+    "id": 2,
+    "name": "Yaourt nature",
+    "category": "Produits laitiers",
+    "price": 3.5,
+    "stock": 60,
+    "image": "data/images/yaourt.svg"
+  },
+  {
+    "id": 3,
+    "name": "Fromage fondu",
+    "category": "Produits laitiers",
+    "price": 18,
+    "stock": 25,
+    "image": "data/images/fromage.svg"
+  },
+  {
+    "id": 4,
+    "name": "Beurre doux",
+    "category": "Produits laitiers",
+    "price": 22,
+    "stock": 20,
+    "image": "data/images/beurre.svg"
+  },
+  {
+    "id": 5,
+    "name": "Jus d'orange",
+    "category": "Boissons",
+    "price": 14,
+    "stock": 30,
+    "image": "data/images/jus-orange.svg"
+  },
+  {
+    "id": 6,
+    "name": "Eau minérale",
+    "category": "Boissons",
+    "price": 5,
+    "stock": 100,
+    "image": "data/images/eau.svg"
+  },
+  {
+    "id": 7,
+    "name": "Café moulu",
+    "category": "Boissons",
+    "price": 38,
+    "stock": 18,
+    "image": "data/images/cafe.svg"
+  },
+  {
+    "id": 8,
+    "name": "Thé vert",
+    "category": "Boissons",
+    "price": 24,
+    "stock": 22,
+    "image": "data/images/the.svg"
+  },
+  {
+    "id": 9,
+    "name": "Riz long",
+    "category": "Épicerie",
+    "price": 16,
+    "stock": 35,
+    "image": "data/images/riz.svg"
+  },
+  {
+    "id": 10,
+    "name": "Pâtes spaghetti",
+    "category": "Épicerie",
+    "price": 9,
+    "stock": 45,
+    "image": "data/images/pates.svg"
+  },
+  {
+    "id": 11,
+    "name": "Farine de blé",
+    "category": "Épicerie",
+    "price": 11,
+    "stock": 28,
+    "image": "data/images/farine.svg"
+  },
+  {
+    "id": 12,
+    "name": "Sucre en poudre",
+    "category": "Épicerie",
+    "price": 8,
+    "stock": 50,
+    "image": "data/images/sucre.svg"
+  },
+  {
+    "id": 13,
+    "name": "Huile de tournesol",
+    "category": "Épicerie",
+    "price": 27,
+    "stock": 24,
+    "image": "data/images/huile.svg"
+  },
+  {
+    "id": 14,
+    "name": "Tomates en conserve",
+    "category": "Épicerie",
+    "price": 7.5,
+    "stock": 32,
+    "image": "data/images/tomates.svg"
+  },
+  {
+    "id": 15,
+    "name": "Biscuits au chocolat",
+    "category": "Épicerie",
+    "price": 10,
+    "stock": 40,
+    "image": "data/images/biscuits.svg"
+  },
+  {
+    "id": 16,
+    "name": "Chocolat noir",
+    "category": "Épicerie",
+    "price": 13,
+    "stock": 26,
+    "image": "data/images/chocolat.svg"
+  },
+  {
+    "id": 17,
+    "name": "Pommes",
+    "category": "Fruits et légumes",
+    "price": 12,
+    "stock": 30,
+    "image": "data/images/pommes.svg"
+  },
+  {
+    "id": 18,
+    "name": "Bananes",
+    "category": "Fruits et légumes",
+    "price": 14,
+    "stock": 25,
+    "image": "data/images/bananes.svg"
+  },
+  {
+    "id": 19,
+    "name": "Oranges",
+    "category": "Fruits et légumes",
+    "price": 9,
+    "stock": 35,
+    "image": "data/images/oranges.svg"
+  },
+  {
+    "id": 20,
+    "name": "Pommes de terre",
+    "category": "Fruits et légumes",
+    "price": 6,
+    "stock": 50,
+    "image": "data/images/pommes-de-terre.svg"
+  },
+  {
+    "id": 21,
+    "name": "Carottes",
+    "category": "Fruits et légumes",
+    "price": 7,
+    "stock": 40,
+    "image": "data/images/carottes.svg"
+  },
+  {
+    "id": 22,
+    "name": "Poulet entier",
+    "category": "Viandes et poissons",
+    "price": 65,
+    "stock": 12,
+    "image": "data/images/poulet.svg"
+  },
+  {
+    "id": 23,
+    "name": "Steak haché",
+    "category": "Viandes et poissons",
+    "price": 48,
+    "stock": 15,
+    "image": "data/images/steak.svg"
+  },
+  {
+    "id": 24,
+    "name": "Filet de poisson",
+    "category": "Viandes et poissons",
+    "price": 55,
+    "stock": 10,
+    "image": "data/images/poisson.svg"
+  },
+  {
+    "id": 25,
+    "name": "Liquide vaisselle",
+    "category": "Entretien",
+    "price": 16,
+    "stock": 20,
+    "image": "data/images/vaisselle.svg"
+  },
+  {
+    "id": 26,
+    "name": "Lessive liquide",
+    "category": "Entretien",
+    "price": 42,
+    "stock": 14,
+    "image": "data/images/lessive.svg"
+  },
+  {
+    "id": 27,
+    "name": "Éponge de cuisine",
+    "category": "Entretien",
+    "price": 6,
+    "stock": 35,
+    "image": "data/images/eponge.svg"
+  },
+  {
+    "id": 28,
+    "name": "Shampooing",
+    "category": "Hygiène",
+    "price": 25,
+    "stock": 18,
+    "image": "data/images/shampooing.svg"
+  },
+  {
+    "id": 29,
+    "name": "Dentifrice",
+    "category": "Hygiène",
+    "price": 14,
+    "stock": 22,
+    "image": "data/images/dentifrice.svg"
+  },
+  {
+    "id": 30,
+    "name": "Savon liquide",
+    "category": "Hygiène",
+    "price": 19,
+    "stock": 16,
+    "image": "data/images/savon.svg"
+  }
+]

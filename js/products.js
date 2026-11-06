@@ -25,15 +25,27 @@ function afficherPanier() {
     remove.textContent = "Supprimer";
     remove.className = "text-red-600 underline";
     remove.addEventListener("click", () => {
-      localStorage.setItem("cart", JSON.stringify(lirePanier().filter((product) => product.id !== item.id)));
+      const card= lirePanier();
+      const product= card.find((cardItem)=>String(cardItem.id)===String(item.id));
+      if(!product)return;
+      if(product.quantity>1){
+        product.quantity-=1;
+        localStorage.setItem("cart",JSON.stringify(card))
+      }else{
+        const UpdateCard= card.filter((cardItem)=>String(cardItem.id)!==String(item.id));
+        localStorage.setItem("cart",JSON.stringify(UpdateCard))
+      }
       afficherPanier();
-      console.log()
     });
     row.append(label, price, remove);
     itemsContainer.append(row);
   });
   const total = cart.reduce((sum, item) => sum + Number(item.price) * item.quantity, 0);
   totalElement.textContent = total.toFixed(2);
+  const buttonTotal= document.getElementById('cart-button-total');
+     if(totalElement){
+      buttonTotal.textContent= total.toFixed(2);
+     } 
 }
 function ajouterAuPanier(product) {
   const cart = lirePanier();

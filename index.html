@@ -21,9 +21,9 @@
       <li><a href="#catalogue" class="text-gray-700 hover:text-orange-600">Catalogue</a></li>
       <li><a href="#panier" class="text-gray-700 hover:text-orange-600">Panier</a></li>
     </ul>
-    <button id="openPanier" class="border bg-red-300 text-white rounded-md" id="openPanier">panier</button>
+    <button id="openPanier" class="border bg-red-600 text-white rounded-md p-2" id="openPanier"><strong>panier</strong> <span id="cart-button-total" class="border bg-amber-50 text-black p-1 rounded-md m-2">0.00</span> DH</button>
   </div>
-  <select id="cataloge">
+  <select id="cataloge" class="m-2 border rounded-md bg-red-500 text-white">
     <option value="">Toutes les catégories</option>
     <option value="Produits laitiers">Produits laitiers</option>
     <option value="Boissons">Boissons</option>
@@ -33,7 +33,7 @@
     <option value="Entretien">Entretien</option>
     <option value="Hygiène">Hygiène</option>
 </select>
-<input type="text" placeholder="Entrer le nom de produit" name="" id="NameRecherche">
+<input type="text" placeholder="Entrer le nom de produit" name="" id="NameRecherche" class="m-2 border rounded-md">
 </nav>
     </header>
     <main class="flex-1">
@@ -48,9 +48,9 @@
 
   
 
-  <dialog id="panier" class="w-11/12 max-w-lg rounded-xl p-0 shadow-xl backdrop:bg-black/50">
+  <dialog id="panier" class="fixed inset-0 m-auto w-[50%]  rounded-xl shadow-xl backdrop:bg-black/50 ">
     <div class="flex items-center justify-between border-b p-5">
-      <h2 class="text-xl font-bold">Mon panier</h2>
+      <h2 class="text-xl font-bold ">Mon panier</h2>
       <button id="ClosePanier" type="button" class="rounded px-3 py-1 text-2xl" aria-label="Fermer">&times;</button>
     </div>
     <div id="cart-items" class="max-h-96 space-y-3 overflow-y-auto p-5"></div>

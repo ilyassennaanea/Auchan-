@@ -113,7 +113,7 @@ export function afficher(products) {
         
         const add = document.createElement("button");
         add.type = "button";
-        add.className = "mt-3 rounded bg-orange-600 px-4 py-2 text-white hover:bg-orange-700";
+        add.className = "mt-3 rounded bg-red-500 px-4 py-2 text-white hover:bg-red-700";
         add.textContent = "Ajouter au panier";
         add.addEventListener("click", () => {
          ajouterAuPanier(product)
@@ -125,6 +125,7 @@ export function afficher(products) {
     numberPage.textContent = totalPages ? `${currentPage} / ${totalPages}` : "0 / 0";
     btnBack.disabled = currentPage <= 1;
     btnNext.disabled = currentPage >= totalPages;
+    numberPage.classList.add('flex' , 'justify-center', 'items-center','rounded-md','bg-red-500','text-white','p-2')
   }
 
   function handleProductDrop(event) {

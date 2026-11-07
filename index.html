@@ -13,15 +13,7 @@
         <nav class="bg-white shadow-sm">
   <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
     <a href="#" class="text-xl font-bold text-orange-600">Auchan</a>
-    <button type="button" class="rounded-md p-2 text-gray-700 md:hidden" aria-label="Ouvrir le menu">
-      ☰
-    </button>
-    <ul class="hidden items-center gap-6 md:flex">
-      <li><a href="#" class="text-gray-700 hover:text-orange-600">Accueil</a></li>
-      <li><a href="#catalogue" class="text-gray-700 hover:text-orange-600">Catalogue</a></li>
-      <li><a href="#panier" class="text-gray-700 hover:text-orange-600">Panier</a></li>
-    </ul>
-    <button id="openPanier" class="border bg-red-600 text-white rounded-md p-2" id="openPanier"><strong>panier</strong> <span id="cart-button-total" class="border bg-amber-50 text-black p-1 rounded-md m-2">0.00</span> DH</button>
+    <button class="border bg-red-500 text-white rounded-md p-2" id="openPanier"><strong>panier</strong> <span id="cart-button-total" class="border bg-amber-50 text-black p-1 rounded-md m-2">0.00</span> DH</button>
   </div>
   <select id="cataloge" class="m-2 border rounded-md bg-red-500 text-white">
     <option value="">Toutes les catégories</option>
@@ -37,12 +29,13 @@
 </nav>
     </header>
     <main class="flex-1">
-  <section id="catalogue-products" class="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 lg:grid-cols-4">
-    <h1>Catalogue</h1>
+  <section class="p-4">
+    <h1><strong>Catalogue : </strong></h1>
+    <div id="catalogue-products" class="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 lg:grid-cols-4"></div>
     <div class="flex justify-between">
-      <button id="scrol-back">back</button>
-      <p class="border" id="number-page">1</p>
-      <button id="scrol-next">next</button>
+      <button id="scrol-back" class="border rounded-md text-white bg-red-500 p-2">back</button>
+      <p class="border" id="number-page" >1</p>
+      <button id="scrol-next" class="border rounded-md text-white bg-red-500 p-2">next</button>
     </div>
   </section>
 
